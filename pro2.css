@@ -1,0 +1,418 @@
+#menubar
+{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(black,blue);
+    color: blue;
+}
+button
+{
+    margin-right: 30px;
+    margin-top: 20px;
+    float: right;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background:transparent ;
+    color: aliceblue;
+
+}
+button:hover 
+{
+    float: right;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: brown ;
+    color: aliceblue;
+
+}
+button:active
+{
+    float: right;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color:black ;
+    color: aliceblue;
+
+}
+    
+
+#imgid
+{
+   display: inline-block;
+   position: absolute;
+   z-index: -1;
+   margin-left: 80px;
+   margin-top: 70px;
+}
+#hd2
+{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    margin-top: 0px;
+
+}
+#hd3
+{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    margin-top: 30px;
+}
+#test
+{
+    position: absolute;
+    
+    right: 90px;
+    top: 230px;
+    margin-top: 100px;    
+}
+
+#dis
+{
+   padding: 10px;
+   margin: 7px;
+   color: yellow;
+   background-color: black;
+   border-radius: 10px;
+   width: 375px;
+   height: 40px;
+   box-shadow: 10px 15px 20px 3px black;
+}
+#dis:hover{
+    padding: 14px;
+    margin: 7px;
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 380px;
+    height: 45px;
+    cursor: pointer;
+}
+#dis{
+    color: white;
+    background-color: lightskyblue;
+}
+.reg
+{
+    text-align: center;
+    color: brown;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+#logoimg
+{
+    align:center;
+    margin-top: 900px;
+}
+  
+#vision
+{
+    height: 300px;
+    background-color: #013e6a;;
+    width: 100%;
+    color: white;    
+}
+#vis
+{
+    margin-left: 360px;
+    margin-top:200px ;
+}
+
+#toprig
+{
+ margin-left: 300px;
+ margin-top: -180px;
+ text-transform: lowercase;
+ font-size: 18px;
+ text-align: justify;
+ 
+
+}
+
+#downrig
+{
+    margin-left: 300px;
+}
+#cont
+{
+    margin-left: 750px;
+    margin-top: -260px;
+
+}
+#conwrit
+{
+    margin-left: 750px;
+}
+#ul
+{
+ margin-left:1080px;
+ margin-top: -400px;
+ height: 220px;
+ width: auto;
+}
+#click
+{
+   font-family: 'roboto','sans-serif';
+   font-size: large;
+   color: firebrick;
+   font-size: 20px;
+   text-align: left;
+   text-decoration: dotted;
+   text-transform: capitalize;
+   text-shadow: 3px;
+}
+#redbox 
+{
+    width: 35%;
+    height: 250px;
+    background-color: red;
+    border-color: black;
+    margin-top: 130px;
+    margin-left: 80px;
+}
+#redbox2
+{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border-color: black;
+    margin-top: -250px;
+    margin-left:660px ;
+    box-sizing: border-box;
+}
+#r1
+{
+    font-family:'roboto','sans-serif';
+    font-size: 24px;
+    color:white;
+    text-align: center;
+}
+#r2
+{
+    font-family:'roboto','sans-serif';
+    font-size: 24px;
+    color:white;
+    text-align: center;
+}
+#rtag 
+{
+    display:flex;
+    box-sizing: border-box;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+#rtag2
+{
+    display:flex;
+    box-sizing: border-box;
+    margin-left: 900px;
+    margin-top: -225px;
+}
+#dropdown
+{
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    display: inline-block;
+    z-index: 1;
+   
+
+}
+#dropdown-content
+{
+   display: none;
+   position: absolute;
+   top: 50px;
+   width: 100%;
+   overflow: none;
+   background-color: whitesmoke;
+   box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.3);
+  
+}
+#dropdown:hover #dropdown-content
+{
+    display: block;
+ 
+}
+#dropdown-content a
+{
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    clear: both;
+    
+}
+#dropdown-content a:hover
+{
+    color: red;
+    background-color: whites;
+   
+}
+#img23{
+    margin-left: 40px;
+    margin-top: -30px;
+    height: 250px;
+    width: 250px;
+}
+#img1{
+    width: 30px;
+    height: auto;
+}
+#div2{
+    position: absolute;
+    margin-top: -80px;
+    left: 50px;
+    padding: 50px;
+}
+#a1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#pgf
+{
+   position: absolute;
+   margin-top:180px;
+   color: black;
+   font-weight: bold;
+   font-size:20px;
+   text-align: justify;
+   width: 50%;
+}
+#pgf1
+{
+   margin-top:550px;
+   color: black;
+   font-weight: bold;
+   font-size:22px;
+   text-align: justify;
+   font-size: 15px;
+   width: 55%;
+
+}
+#pgf2
+{
+   margin-top:-74%;
+   color: black;
+   font-weight: bold;
+   font-size: x-large;
+   text-align: justify;
+   font-size: 22px;
+   text-decoration: none;
+   margin-left: 58%;
+
+}        
+a
+{
+    text-decoration: none;
+}
+#pgf3
+{
+    position: absolute;
+    margin-top: -20%;
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 85%;
+    font-weight: bold;
+    
+}
+#pgf4
+{
+    position: absolute;
+    margin-top: 4%;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 58%;
+    font-weight: bold;
+    
+}
+#pgf5
+{
+    position: absolute;
+    margin-top: -5%;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 85%;
+    font-weight: bold;
+    
+}
+#aro 
+{
+    width: 30px;
+    height: auto;
+    margin-top: 1180px;
+    margin-left: 190px;
+    
+}
+#aro1
+{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 340px;
+    color: black;    
+}  #p1
+    {
+     color: red;
+    } 
+.active a
+{
+    background: #013e6a;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 1px;
+    border-top: 10px solid #013e6a;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent; 
+   position: absolute;
+    top: 1230px;
+    right: 83%;
+    padding: 10px 10px;
+    
+}
+.active1 a
+{
+    background: #013e6a;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-radius: 0px;
+    border-top: 10px solid #013e6a;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    top: 1230px;
+    right: 76%;
+    border-radius: 1px;
+    background: #272d33;
+    padding: 10px 10px;
+}    
+#clip1{
+    float: right;
+    margin-top: 430px;
+    margin-right:140px;
+
+}
+#clip2{
+margin-left: 20px;
+}
+#scroll{
+    margin-top: -370px;
+}
+#cgimg{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+
+
+
+
